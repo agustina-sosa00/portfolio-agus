@@ -1,13 +1,14 @@
 
 
 import { Navbar } from './components/Navbar/Navbar'
+import { Home } from './view/Home/Home'
 
 function App() {
 
   return (
     <>
       <Navbar/>
-      <h1>agus</h1>
+      <Home/>
     </>
   )
 }

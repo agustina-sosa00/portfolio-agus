@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import menu from '../../assets/bars-solid.svg'
-import close from '../../assets/xmark-solid (1).svg'
+import { RxHamburgerMenu } from "react-icons/rx";
+import { MdClose } from "react-icons/md";
 import { ContainerBurger } from './ContainerBurger'
 
 export const Burger: React.FC = () => {
@@ -13,7 +13,8 @@ export const Burger: React.FC = () => {
   return (
     <div className='w-[50px] h-[50px]'>
         {
-            menuState ? (<button onClick={handleOnClick}><img src={close} alt="" className='w-[40px] h-[40px]'/></button>) : ( <button onClick={handleOnClick}><img src={menu} alt="" className='w-[40px] h-[40px]'/></button>)
+            menuState ? (<button onClick={handleOnClick}><MdClose className='w-[40px] h-[40px] text-[#77530a] hover:text-gray-600'/>
+                </button>) : ( <button onClick={handleOnClick}><RxHamburgerMenu className='w-[40px] h-[40px] text-[#77530a] hover:text-gray-600'/></button>)
         }
 
         {
