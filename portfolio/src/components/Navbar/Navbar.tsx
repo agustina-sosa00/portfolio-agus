@@ -12,9 +12,9 @@ export const Navbar:React.FC = () => {
             <Logo/>
         </div>
         <div className=' hidden w-[40%] h-full  md:flex justify-evenly items-center'>
-            <button className='font-parrafo text-2xl text-[#77530a] hover:text-gray-600'>Home</button>
-            <button className='font-parrafo text-2xl text-[#77530a] hover:text-gray-600'>Sobre Mi</button>
-            <button className='font-parrafo text-2xl text-[#77530a] hover:text-gray-600'>Proyectos</button>
+            <button className='font-parrafo text-2xl text-[#77530a] hover:border-b-2 hover:border-[#77530a]'>Home</button>
+            <button className='font-parrafo text-2xl text-[#77530a] hover:border-b-2 hover:border-[#77530a]'>Sobre Mi</button>
+            <button className='font-parrafo text-2xl text-[#77530a] hover:border-b-2 hover:border-[#77530a]'>Proyectos</button>
         </div>
         <div className='hidden w-[25%] h-full md:flex justify-center items-center'>
             <Iconos/>
