@@ -1,14 +1,14 @@
-
-
-import { Navbar } from './components/Navbar/Navbar'
 import { Home } from './view/Home/Home'
+import { About } from './view/About/About'
+import { Projects } from './view/Projects/Projects'
 
 function App() {
 
   return (
     <>
-      <Navbar/>
       <Home/>
+      <About/>
+      <Projects/>
     </>
   )
 }
