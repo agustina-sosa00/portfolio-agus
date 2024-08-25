@@ -6,7 +6,7 @@ import './Navbar.css'
 
 export const Navbar:React.FC = () => {
   return (
-    <div className='w-full h-[70px] flex justify-between items-center'>
+    <div className='w-full h-[70px] flex justify-between items-center bg-white fixed top-0 z-30 shadow-lg'>
         <div className='w-[70%] md:w-[35%] h-full flex justify-start items-center'>
             <Logo/>
         </div>
