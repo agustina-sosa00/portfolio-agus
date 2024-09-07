@@ -5,55 +5,36 @@ import { arrayTec } from '../../helpers/arrayTechnology'
 
 export const About: React.FC = () => {
   return (
-    <div id='/about' className='w-full min-h-screen bg-white p-10 flex justify-center items-center'>
-      <div className='w-[90%] h-[90%] flex'>
-         {/* <div className='w-1/2 h-full flex justify-center items-center '>
-      <div className='relative w-full h-[100%] flex justify-center items-center'>
-        <motion.div 
-          initial={{ y: -100, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 2 }}
-          className='absolute top-0 left-0  z-0 '
-        >
-          <img src="https://i.ibb.co/sRT0zBq/Logo-ropa-mujer-ilustrativo-negro-1-Photoroom.png" alt="Zigzag" className='w-[500px] h-[600px]' />
-        </motion.div>
-        
-        <img 
-          src="https://i.ibb.co/bRW8GzW/Whats-App-Image-2024-08-15-at-17-18-Photoroom.png" 
-          alt="" 
-          className='w-[220px] h-[400px] relative z-10  right-32 imgEffectLeft'
-        />
-      </div>
-        </div> */}
-        <div className="sparkle-container w-1/2 h-[100%] ">
-  <div className="star"></div>
-  <div className="star"></div>
-  <div className="star"></div>
-  <div className="star"></div>
-  <div className="star"></div>
-  <div className='w-[400px] h-[500px] flex justify-center items-center bgAbout'>
-  <img 
-          src="https://i.ibb.co/bRW8GzW/Whats-App-Image-2024-08-15-at-17-18-Photoroom.png" 
-          alt="" 
-          className='w-[220px] h-[400px]  imgEffectLeft '
-        />
-  </div>
- 
-</div>
-
-
-
-        <div className='w-1/2 h-[500px] flex flex-col justify-center items-center'>
-          <p >Desarrolladora Frontend con experiencia en <span>React, Next.js, JavaScript, Typescript</span> entre otras. Ofrezco soluciones digitales completas y atractivas que impulsan el éxito del proyecto. Soy colaborativa, comunicativa y comprometida con la calidad. Mantengo mi conocimiento actualizado con las últimas tendencias y tecnologías en desarrollo web.</p>
-          <div className=" w-full h-250px flex justify-center items-center overflow-hidden">
-            <div className=" w-3/4 h-250px flex items-center overflow-hidden">
+    <div id='/about' className='w-full min-h-screen bg-white p-10 flex  justify-center items-center'>
+      <div className='w-full md:w-[90%] h-[90%] flex flex-col md:flex-row mt-10'>
+        <div className='w-full md:hidden flex justify-center items-center'>
+          <h2 className='text-[#faa2b2] text-3xl md:text-5xl font-parrafo '>Sobre Mi</h2>
+          </div>
+        <div className="sparkle-container w-full md:w-1/3 md:h-[100%] ">
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className='w-[200px]  h-[300px] sm:w-[320px] sm:h-[400px] md:w-[400px] md:h-[500px] flex justify-center items-center md:bgAbout'>
+            <img src="https://i.ibb.co/bRW8GzW/Whats-App-Image-2024-08-15-at-17-18-Photoroom.png" alt="" className='w-full sm:w-[80%] md:w-[220px] h-[300px] md:h-[400px]  md:imgEffectLeft ' />
+          </div>
+        </div>
+        <div className='w-full md:w-2/3 md:h-[500px]  flex flex-col justify-center items-center p-5'>
+          <div className='w-full hidden md:block'>
+            <h2 className='text-[#faa2b2] text-5xl font-parrafo '>Sobre Mi</h2>
+          </div>
+          <p className='font-parrafo text-[#77530a] text-2xl text-center md:text-justify mt-4'><span className='text-[#77530a] font-bold'>Desarrolladora Frontend</span>  con experiencia en <span className='text-[#77530a] font-bold' >React, Next.js, JavaScript, Typescript</span> entre otras. Ofrezco soluciones digitales completas y atractivas que impulsan el éxito del proyecto. Soy <span className='text-[#77530a] font-bold'>colaborativa, comunicativa y comprometida</span> con la calidad. Mantengo mi conocimiento actualizado con las últimas tendencias y tecnologías en desarrollo web.
+          </p>
+          <div className=" w-full h-250px flex justify-center items-center overflow-hidden ">
+            <div className="w-full md:w-3/4 h-250px flex items-center overflow-hidden">
             <div className="slideTrack">
-  {[...arrayTec, ...arrayTec].map((tec, index) => (
-    <div key={index} className="slide">
-      <h2 className='text'>{tec.name}</h2>
-    </div>
-  ))}
-</div>
+              {[...arrayTec, ...arrayTec].map((tec, index) => (
+                <div key={index} className="slide mt-6">
+                  <h2 className='text-[#77530a] font-bold'>{tec.name}</h2>
+                </div>
+              ))}
+            </div>
             </div>
           </div>
         </div>
