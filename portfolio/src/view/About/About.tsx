@@ -16,7 +16,7 @@ export const About: React.FC = () => {
           <div className="star"></div>
           <div className="star"></div>
           <div className="star"></div>
-          <div className='w-[200px]  h-[300px] sm:w-[320px] sm:h-[400px] md:w-[400px] md:h-[500px] flex justify-center items-center md:bgAbout'>
+          <div className='w-[200px]  h-[300px] sm:w-[320px] sm:h-[400px] md:w-[400px] md:h-[500px] flex justify-center items-center bgAbout'>
             <img src="https://i.ibb.co/bRW8GzW/Whats-App-Image-2024-08-15-at-17-18-Photoroom.png" alt="" className='w-full sm:w-[80%] md:w-[220px] h-[300px] md:h-[400px]  md:imgEffectLeft ' />
           </div>
         </div>
