@@ -146,6 +146,8 @@
   }
 }
 @media screen and (max-width: 500px){
+
+
   .star:nth-child(1) {
     top: 20%;
     left: 20%;
@@ -175,4 +177,19 @@
     left: 8%;
     animation-delay: 2s;
   }
+}
+
+
+/* nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn */
+
+.swiper_container {
+  height: 52rem;
+  padding: 2rem 0;
+  position: relative;
+}
+
+.swiper-slide {
+  width: 37rem;
+  height: 42rem;
+  position: relative;
 }
