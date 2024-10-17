@@ -4,15 +4,15 @@ export default {
   theme: {
     extend: {
       colors: {
-
+        primario: "#faa2b2",
+        secundario: "#77530a",
       },
       fontFamily: {
         titulo1: '"Parisienne", cursive',
         titulo2: '"Sacramento", cursive',
-        parrafo: '"Crimson Pro", serif'
-      }
+        parrafo: '"Crimson Pro", serif',
+      },
     },
   },
   plugins: [],
-}
-
+};
