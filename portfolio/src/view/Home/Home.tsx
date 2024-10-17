@@ -1,14 +1,18 @@
-import React from 'react'
-import './Home.css'
-import { CardHome } from './CardHome'
-
-export const Home:React.FC = () => {
+import React from "react";
+// import './Home.css'
+import { CardHome } from "./CardHome";
+import { Element } from "react-scroll";
+export const Home: React.FC = () => {
   return (
-    <div id='/' className='w-full min-h-screen bgHome flex justify-center items-center'>
-      <div className='w-4/5 h-[350px] md:h-[450px] estiloDorado flex flex-col justify-center items-center'>
-        <CardHome/>
+    <Element name="home">
+      <div
+        id="/"
+        className="w-full min-h-screen bgHome flex justify-center items-center pt-16 lg:pt-0"
+      >
+        <div className="w-4/5 h-72 md:h-80 estiloDorado flex flex-col justify-center items-center">
+          <CardHome />
+        </div>
       </div>
-      
-    </div>
-  )
-}
+    </Element>
+  );
+};
