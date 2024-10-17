@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     title: "Ice Cream",
     description:
-      "El sitio web de Ice Cream permite a los usuarios poder elegir productos, cargarlos a un carrito de compras, y realizar el pedido directamente a whatsapp. Cuenta con un panel de administrador, donde los administradores pueden loguearse y acceder a un dashboard donde gestionan sus productos, realizando un CRUD completo. Frontend: React, TypeScript, TailwindCSS, Axios, Context, Clerk",
+      "Ice Cream permite a los usuarios poder elegir productos, cargarlos a un carrito de compras, y realizar el pedido directamente a whatsapp. Posee un panel de administrador. Frontend: React, TypeScript, TailwindCSS, Axios, Context, Clerk",
     image: "https://i.ibb.co/y8CDJw0/ice-Cream.png",
     url: "https://ice-cream-seven.vercel.app/",
   },
