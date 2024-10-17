@@ -1,29 +1,22 @@
 import { projects } from "../../helpers/arrayProject";
-
+import "../../App.css";
 export const CardProject = () => {
   return (
     <div className="w-full h-full  flex  flex-wrap justify-center items-center gap-10 ">
       {projects.map((project) => {
         return (
           <div
-            className="w-[40rem] h-60 flex  justify-center items-center bg-white border border-gray-200 rounded-lg shadow  hover:bg-gray-100 dark:border-gray-700 "
+            className="card w-[40rem] h-80 rounded-xl flex justify-center items-center relative "
             key={project.id}
           >
-            <div className="w-2/3 h-full p-3">
-              <img
-                className="object-cover w-full h-full  "
-                src={project.image}
-                alt=""
-              />
-            </div>
-
-            <div className="w-1/3 flex flex-col justify-evenly items-center">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <img src={project.image} alt="" className="h-full" />
+            <div className="card__content absolute w-full h-full p-5 bg-white top-1/2 left-1/2 ">
+              <p className=" m-0 text-3xl text-primario font-bold">
                 {project.title}
-              </h5>
-              {/* <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              </p>
+              <p className="card__description mt-3 text-lg text-secundario ">
                 {project.description}
-              </p> */}
+              </p>
             </div>
           </div>
         );
