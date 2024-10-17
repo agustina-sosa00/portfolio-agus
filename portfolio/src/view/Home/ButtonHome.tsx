@@ -1,11 +1,12 @@
 import React from "react";
-import "./Home.css";
+// import "./Home.css";
+import "../../App.css";
 
 export const ButtonHome: React.FC = () => {
   return (
-    <div className="w-full h-full flex justify-center items-center relative z-10 top-[20px]">
-      <button className="w-[150px] h-[40px] lg:w-[200px] lg:h-[50px] bg-[#FFB3C1] estiloDoradoBoton">
-        Proyectos
+    <div className="w-full h-full flex justify-center items-center  z-10 ">
+      <button className="btn w-24 h-8 lg:w-24 lg:h-8 xl:w-36 xl:h-12 text-sm lg:text-base xl:text-xl rounded-xl outline-none text-white cursor-pointer hover:text-secundario  ">
+        Ver
       </button>
     </div>
   );
