@@ -1,0 +1,50 @@
+.bgHome {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("../../assets/imgHome.jpg");
+  background-size: cover;
+}
+.estiloDorado {
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-left: none;
+  border-right: none;
+  border-image: linear-gradient(
+      to right,
+      #77530a,
+      #ffd277,
+      #77530a,
+      #77530a,
+      #ffd277,
+      #77530a
+    )
+    1;
+}
+
+.bgSubCaja {
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.724),
+    rgba(255, 255, 255, 0.802)
+  );
+}
+
+.estiloDoradoBoton {
+  border-top: none;
+  border-bottom: 4px solid transparent;
+  border-left: none;
+  border-right: none;
+  border-image: linear-gradient(
+      to right,
+      #77530a,
+      #ffd277,
+      #77530a,
+      #77530a,
+      #ffd277,
+      #77530a
+    )
+    1;
+}
+
+/* button */
