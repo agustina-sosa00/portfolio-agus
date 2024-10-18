@@ -222,7 +222,7 @@
 /* card */
 /* From Uiverse.io by yashlikescode */
 .card {
-  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100%);
+  background: transparent;
   overflow: hidden;
   transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
 }
@@ -233,6 +233,7 @@
 
 .card:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border: none;
 }
 
 .card__content {
@@ -245,6 +246,7 @@
 .card:hover .card__content {
   transform: translate(-50%, -50%) rotate(0deg);
   opacity: 1;
+  border: none;
 }
 
 .card__description {
