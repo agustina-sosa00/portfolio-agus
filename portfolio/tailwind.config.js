@@ -9,7 +9,7 @@ export default {
       },
       fontFamily: {
         titulo1: '"Parisienne", cursive',
-        titulo2: '"Sacramento", cursive',
+        titulo2: '"MonteCarlo", cursive',
         parrafo: '"Crimson Pro", serif',
       },
     },

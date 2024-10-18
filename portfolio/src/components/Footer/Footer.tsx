@@ -26,7 +26,7 @@ export const Footer: React.FC = () => {
               href="https://flowbite.com/"
               className="flex items-center mb-1 sm:mb-0  "
             >
-              <span className=" font-titulo1 font-medium text-xl lg:text-3xl text-secundario">
+              <span className=" font-titulo2 font-medium text-xl lg:text-3xl text-secundario">
                 Agustina Sosa
               </span>
             </a>
