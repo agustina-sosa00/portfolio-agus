@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../../assets/logoAgus.png";
 import { Toaster, toast } from "sonner";
+import "../../App.css";
 
 export const Footer: React.FC = () => {
   //funcion para copiar el email al portapapeles
@@ -19,18 +19,16 @@ export const Footer: React.FC = () => {
   return (
     <>
       <Toaster position="bottom-center" />
-      <footer className="bg-white rounded-lg shadow m-4">
+      <footer className="bgAboyProject rounded-lg shadow ">
         <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
           <div className="sm:flex sm:items-center sm:justify-between">
             <a
               href="https://flowbite.com/"
               className="flex items-center mb-1 sm:mb-0  "
             >
-              <img
-                src={logo}
-                className="w-24 xl:w-44 xl:h-20 opacity-80"
-                alt="Flowbite Logo"
-              />
+              <span className=" font-titulo1 font-medium text-xl lg:text-3xl text-secundario">
+                Agustina Sosa
+              </span>
             </a>
             <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-secundario sm:mb-0 ">
               <li>

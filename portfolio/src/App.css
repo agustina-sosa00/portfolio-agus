@@ -63,6 +63,10 @@
   background-image: url("../src/assets/fondoimg.png");
 }
 
+.bgAboyProject {
+  background: linear-gradient(to right, #f8e9ec, #fff, #f8e9ec);
+}
+
 .sparkle-container {
   position: relative;
   display: flex;
