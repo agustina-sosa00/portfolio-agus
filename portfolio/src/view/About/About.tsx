@@ -9,15 +9,15 @@ export const About: React.FC = () => {
     <Element name="about">
       <div
         id="/about"
-        className="w-full min-h-screen bg-white p-10 flex  justify-center items-center"
+        className="w-full min-h-screen bgAboyProject p-10 flex  justify-center items-center"
       >
-        <div className="w-full md:w-[90%] h-[90%] flex flex-col md:flex-row mt-10">
+        <div className="w-full md:w-[90%] h-[90%] flex flex-col md:flex-row justify-center items-center mt-10 ">
           <div className="w-full md:hidden flex justify-center items-center">
             <h2 className="text-[#faa2b2] text-3xl md:text-5xl font-parrafo ">
               Sobre Mi
             </h2>
           </div>
-          <div className="sparkle-container w-full md:w-1/3 md:h-[100%] ">
+          <div className="sparkle-container w-full md:w-1/4 md:h-[100%]  ">
             <div className="star"></div>
             <div className="star"></div>
             <div className="star"></div>
@@ -31,7 +31,7 @@ export const About: React.FC = () => {
               />
             </div>
           </div>
-          <div className="w-full md:w-2/3 md:h-[500px]  flex flex-col justify-center items-center p-5">
+          <div className="w-full md:w-1/2 md:h-[500px]  flex flex-col justify-center items-center p-3">
             <div className="w-full hidden md:block">
               <h2 className="text-[#faa2b2] text-5xl font-parrafo ">
                 Sobre Mi
