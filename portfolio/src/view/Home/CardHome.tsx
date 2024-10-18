@@ -9,7 +9,7 @@ export const CardHome: React.FC = () => {
           Bienvenidos{" "}
         </h2>
         <h3 className="font-parrafo text-lg lg:text-2xl text-[#77530a]">soy</h3>
-        <h1 className="font-titulo1 font-semibold text-4xl lg:text-8xl text-[#f9abb9]">
+        <h1 className="font-titulo2  text-4xl lg:text-8xl text-[#f9abb9]">
           Agustina Sosa
         </h1>
         <h2 className="font-parrafo text-center text-sm lg:text-3xl uppercase text-[#77530a] tracking-wider">
