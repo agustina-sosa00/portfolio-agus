@@ -6,7 +6,7 @@ interface Props {
 }
 const VideoComponent: React.FC<Props> = ({ video }) => {
   return (
-    <div className="w-full h-[30rem]">
+    <div className="w-full h-60 xl:h-[30rem]">
       <ReactPlayer url={video} width="100%" height="100%" controls={true} />
     </div>
   );
