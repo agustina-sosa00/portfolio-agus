@@ -1,20 +1,21 @@
 import React from "react";
 import "../../App.css";
 import { IoClose } from "react-icons/io5";
+import VideoComponent from "../VideoProject/VideoProject";
 
 interface Props {
   closeModal: () => void;
   title: string;
   url: string;
   description: string;
-  img: string;
+  video: string;
 }
 export const ModalProjects: React.FC<Props> = ({
   closeModal,
   title,
   url,
   description,
-  img,
+  video,
 }) => {
   return (
     <>
@@ -33,7 +34,8 @@ export const ModalProjects: React.FC<Props> = ({
           <h1 className="text-center font-parrafo text-xl lg:text-3xl text-primario font-semibold">
             {title}
           </h1>
-          <img src={img} alt="" className="w-[90%] lg:w-3/5 rounded-lg modal" />
+          {/* <img src={img} alt="" className="w-[90%] lg:w-3/5 rounded-lg modal" /> */}
+          <VideoComponent video={video} />
           <p className="text-center font-parrafo text-secundario text-base lg:text-xl w-2/3">
             {description}
           </p>
