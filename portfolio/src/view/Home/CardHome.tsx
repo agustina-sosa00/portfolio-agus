@@ -1,20 +1,44 @@
 import React from "react";
 import { ButtonHome } from "./ButtonHome";
+import { motion } from "framer-motion";
+
 export const CardHome: React.FC = () => {
   return (
     <>
       <div className="w-full h-52 md:w-2/3  lg:h-[290px] bgSubCaja flex flex-col justify-center items-center p-2">
-        <h2 className="font-parrafo text-2xl lg:text-4xl text-[#77530a] ">
+        <motion.h2
+          initial={{ opacity: 0, x: "-100%", scale: 0.8 }} // Empieza invisible, más pequeño y desplazado
+          animate={{ opacity: 1, x: "0%", scale: 1 }} // Se vuelve visible, vuelve a su tamaño original y posición
+          transition={{ duration: 1.5, delay: 4 }}
+          className="font-parrafo text-2xl lg:text-4xl text-[#77530a] "
+        >
           Bienvenidos
-        </h2>
+        </motion.h2>
 
-        <h3 className="font-parrafo text-lg lg:text-2xl text-[#77530a]">soy</h3>
-        <h1 className="font-titulo2  text-4xl md:text-6xl lg:text-8xl text-[#f9abb9]">
+        <motion.h3
+          initial={{ opacity: 0, x: "-100%", scale: 0.8 }} // Empieza invisible, más pequeño y desplazado
+          animate={{ opacity: 1, x: "0%", scale: 1 }} // Se vuelve visible, vuelve a su tamaño original y posición
+          transition={{ duration: 1.5, delay: 4.7 }}
+          className="font-parrafo text-lg lg:text-2xl text-[#77530a] w-1/2 text-center"
+        >
+          soy
+        </motion.h3>
+        <motion.h1
+          initial={{ opacity: 0, scale: 0 }} // Empieza invisible y pequeño
+          animate={{ opacity: 1, scale: 1 }} // Se vuelve visible y escala a su tamaño normal
+          transition={{ duration: 2, delay: 5.8 }}
+          className="font-titulo2  text-4xl md:text-6xl lg:text-8xl text-[#f9abb9]"
+        >
           Agustina Sosa
-        </h1>
-        <h2 className="font-parrafo text-center text-sm lg:text-3xl uppercase text-[#77530a] tracking-wider">
+        </motion.h1>
+        <motion.h2
+          initial={{ opacity: 0, x: "-100%", scale: 0.8 }} // Empieza invisible, más pequeño y desplazado
+          animate={{ opacity: 1, x: "0%", scale: 1 }} // Se vuelve visible, vuelve a su tamaño original y posición
+          transition={{ duration: 1.5, delay: 4 }}
+          className="font-parrafo text-center text-sm lg:text-3xl uppercase text-[#77530a] tracking-wider"
+        >
           Desarrolladora frontend
-        </h2>
+        </motion.h2>
         <ButtonHome />
       </div>
     </>
