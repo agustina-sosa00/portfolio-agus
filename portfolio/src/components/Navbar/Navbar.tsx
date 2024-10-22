@@ -8,13 +8,13 @@ import { Link } from "react-scroll";
 export const Navbar: React.FC = () => {
   return (
     <div className="w-full h-[70px] flex justify-between items-center bg-white fixed top-0 z-30 shadow-lg">
-      <div className="w-2/3 md:w-1/4 h-full flex justify-center items-center">
+      <div className="flex items-center justify-center w-2/3 h-full md:w-1/4">
         <Logo />
       </div>
-      <div className=" hidden md:w-1/2 h-full  md:flex justify-center items-center gap-8">
+      <div className="items-center justify-center hidden h-full gap-8  md:w-1/2 md:flex">
         <Link to="home" smooth={true} duration={500}>
           <button className="font-parrafo text-2xl text-[#77530a] hover:border-b-2 hover:border-[#77530a]">
-            Home
+            Inicio
           </button>
         </Link>
         <Link to="about" smooth={true} duration={500}>
@@ -28,10 +28,10 @@ export const Navbar: React.FC = () => {
           </button>
         </Link>
       </div>
-      <div className="hidden md:w-1/4 h-full md:flex justify-center items-center">
+      <div className="items-center justify-center hidden h-full md:w-1/4 md:flex">
         <Iconos />
       </div>
-      <div className="w-2/3 h-full flex justify-center items-center md:hidden">
+      <div className="flex items-center justify-center w-2/3 h-full md:hidden">
         <Burger />
       </div>
     </div>

@@ -9,7 +9,7 @@ export const CardHome: React.FC = () => {
         <motion.h2
           initial={{ opacity: 0, x: "-100%", scale: 0.8 }} // Empieza invisible, más pequeño y desplazado
           animate={{ opacity: 1, x: "0%", scale: 1 }} // Se vuelve visible, vuelve a su tamaño original y posición
-          transition={{ duration: 1.5, delay: 4 }}
+          transition={{ duration: 1.5, delay: 1 }}
           className="font-parrafo text-2xl lg:text-4xl text-[#77530a] "
         >
           Bienvenidos
@@ -18,7 +18,7 @@ export const CardHome: React.FC = () => {
         <motion.h3
           initial={{ opacity: 0, x: "-100%", scale: 0.8 }} // Empieza invisible, más pequeño y desplazado
           animate={{ opacity: 1, x: "0%", scale: 1 }} // Se vuelve visible, vuelve a su tamaño original y posición
-          transition={{ duration: 1.5, delay: 4.7 }}
+          transition={{ duration: 1.5, delay: 1.3 }}
           className="font-parrafo text-lg lg:text-2xl text-[#77530a] w-1/2 text-center"
         >
           soy
@@ -26,7 +26,7 @@ export const CardHome: React.FC = () => {
         <motion.h1
           initial={{ opacity: 0, scale: 0 }} // Empieza invisible y pequeño
           animate={{ opacity: 1, scale: 1 }} // Se vuelve visible y escala a su tamaño normal
-          transition={{ duration: 2, delay: 5.8 }}
+          transition={{ duration: 2, delay: 2.2 }}
           className="font-titulo2  text-4xl md:text-6xl lg:text-8xl text-[#f9abb9]"
         >
           Agustina Sosa
@@ -34,7 +34,7 @@ export const CardHome: React.FC = () => {
         <motion.h2
           initial={{ opacity: 0, scale: 0 }} // Empieza invisible y pequeño
           animate={{ opacity: 1, scale: 1 }} // Se vuelve visible, vuelve a su tamaño original y posición
-          transition={{ duration: 1.5, delay: 8 }}
+          transition={{ duration: 1.5, delay: 2.6 }}
           className="font-parrafo text-center text-sm lg:text-3xl uppercase text-[#77530a] tracking-wider"
         >
           Desarrolladora frontend
