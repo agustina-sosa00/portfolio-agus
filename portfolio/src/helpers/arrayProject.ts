@@ -1,4 +1,5 @@
 export const projects = [
+  
   {
     id: 1,
     title: "Qr Generator",
@@ -25,32 +26,5 @@ export const projects = [
     image: "https://i.ibb.co/SBwp4XY/steticglamhome.jpg",
     url: "https://stetic-glam.vercel.app/",
     video: "https://youtu.be/_JUhvYg0N4s",
-  },
-  {
-    id: 4,
-    title: "RinDoor",
-    description:
-      "Aplicación que tenía como objetivo conectar clientes con profesionales. Los clientes realizaban publicaciones, y los profesionales debían subscribirse para poder postularse a esos trabajos. Incorporamos un chat cliente-profesional, notificaciones vía email, ubicación del trabajo. Frontend: Next, React, JavaScript, TailwindCSS",
-    image: "https://i.ibb.co/kxtG79n/Sin-rindoooooorrrrr.png",
-    url: "https://rindoor-2-0.vercel.app/",
-    video: "https://youtu.be/o19jPjCXins",
-  },
-  {
-    id: 5,
-    title: "Eccommerce",
-    description:
-      " Aplicación que tenía como objetivo que un usuario invitado pueda registrarse, loguearse, ver un listado de productos, agregar uno o más productos al carrito, crear órdenes, etc. Frontend: Next, React, Typescript, Tailwind, Styled Component",
-    image: "https://i.ibb.co/rsBDgy1/proyecto4.png",
-    url: "https://github.com/agustina-sosa00/proyect4",
-    video: "https://youtu.be/lUH7ykChMPI",
-  },
-  {
-    id: 6,
-    title: "Gestor de Turnos",
-    description:
-      "Aplicación que tenía como objetivo que un usuario invitado pueda registrarse, loguearse, poder guardar un turno y ver un listado de todos sus turnos. Frontend: React, Javascriipt, CSS Module,  Backend: NodeJS, Express, PostgreSQL, Typescript ",
-    image: "https://i.ibb.co/pP9Cqmw/proyecto3.png",
-    url: "https://github.com/agustina-sosa00/proyect3",
-    video: "https://youtu.be/zLbj03mV1PA",
   },
 ];

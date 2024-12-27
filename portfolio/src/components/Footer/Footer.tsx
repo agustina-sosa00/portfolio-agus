@@ -61,6 +61,16 @@ export const Footer: React.FC = () => {
                   Email
                 </button>
               </li>
+              <li>
+                <a
+                  href="../../../public/Agustina Ayelen Sosa CV.pdf"
+                  download="Agustina-Ayelen-Sosa-CV.pdf"
+                >
+                  <button className="hover:underline me-4 md:me-6">
+                    Descargar CV
+                  </button>
+                </a>
+              </li>
             </ul>
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />

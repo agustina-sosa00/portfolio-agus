@@ -5,6 +5,7 @@ import { Element } from "react-scroll";
 import { motion, useAnimation } from "framer-motion";
 import foto from "../../assets/Frame 7-Photoroom.png";
 import { useInView } from "react-intersection-observer";
+
 export const About: React.FC = () => {
   // Controlador para la animación
   const controls = useAnimation();
@@ -66,21 +67,22 @@ export const About: React.FC = () => {
               </motion.h2>
             </div>
             <p className="font-parrafo text-[#77530a] text-base lg:text-2xl text-center md:text-justify mt-4">
+              Soy una{" "}
               <span className="text-[#77530a] font-bold">
                 Desarrolladora Frontend
               </span>{" "}
-              con experiencia en{" "}
+              enfocada en construir experiencias digitales intuitivas y
+              funcionales, utilizando tecnologías como{" "}
               <span className="text-[#77530a] font-bold">
-                React, Next.js, JavaScript, Typescript
+                React, Next.js, JavaScript, Typescript, TailwindCSS.
               </span>{" "}
-              entre otras. Ofrezco soluciones digitales completas y atractivas
-              que impulsan el éxito del proyecto. Soy{" "}
+              Me destaco por mi{" "}
               <span className="text-[#77530a] font-bold">
-                colaborativa, comunicativa y comprometida
+                capacidad para entregar tareas en tiempos eficientes, escribir
+                código limpio y bien estructurado.
               </span>{" "}
-              con la calidad. Mantengo mi conocimiento actualizado con las
-              últimas tendencias y tecnologías en desarrollo web.
             </p>
+
             <div className="flex items-center justify-center w-full overflow-hidden h-250px">
               <div className="flex items-center w-full overflow-hidden md:w-3/4 h-250px">
                 <div className="slideTrack">
