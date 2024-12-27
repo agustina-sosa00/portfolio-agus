@@ -9,7 +9,7 @@ export const DownoaldCV: React.FC = () => {
       animate={{ opacity: 1, scale: 1 }} // Se vuelve visible y escala a su tamaño normal
       transition={{ duration: 2, delay: 2.5 }}
     >
-      <div smooth={true} duration={500}>
+      <div>
         <a
           href="../../../public/Agustina Ayelen Sosa CV.pdf"
           download="Agustina-Ayelen-Sosa-CV.pdf"
