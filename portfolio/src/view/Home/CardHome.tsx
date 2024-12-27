@@ -1,6 +1,7 @@
 import React from "react";
 import { ButtonHome } from "./ButtonHome";
 import { motion } from "framer-motion";
+import { DownoaldCV } from "./DownoaldCV";
 
 export const CardHome: React.FC = () => {
   return (
@@ -39,7 +40,10 @@ export const CardHome: React.FC = () => {
         >
           Desarrolladora frontend
         </motion.h2>
-        <ButtonHome />
+        <div className="flex gap-4">
+          <ButtonHome labelText="Proyectos" url="projects" />
+          <DownoaldCV />
+        </div>
       </div>
     </>
   );
