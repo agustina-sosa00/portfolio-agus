@@ -30,7 +30,7 @@ export const Projects: React.FC = () => {
     <Element name="projects">
       <div
         id="/projects"
-        className="flex flex-col items-center justify-start w-full min-h-screen gap-8 pt-20 pb-16 lg:pt-32 lg:gap-20 bgAboyProject"
+        className="flex flex-col items-center justify-start w-full min-h-screen gap-4 lg:pt-32 lg:gap-20 bgAboyProject"
       >
         <div className="flex items-center justify-center w-full" ref={ref}>
           <motion.h2

@@ -19,7 +19,7 @@ export const Footer: React.FC = () => {
   return (
     <>
       <Toaster position="bottom-center" />
-      <footer className="rounded-lg shadow bgAboyProject ">
+      <footer className=" bgAboyProject">
         <div className="w-full max-w-screen-xl p-4 mx-auto md:py-8">
           <div className="sm:flex sm:items-center sm:justify-between">
             <a
