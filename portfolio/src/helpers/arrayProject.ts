@@ -1,5 +1,13 @@
 export const projects = [
-  
+  {
+    id: 0,
+    title: "Palta App",
+    description:
+      "Palta App es una aplicación PWA diseñada para brindar una experiencia digital ágil y cómoda en restaurantes. Permite a los usuarios escanear un QR único de la mesa para crear y gestionar órdenes personalizadas de manera sencilla. Su diseño responsivo garantiza una experiencia óptima en cualquier dispositivo. Tecnologias: React, JavaScript, TailwindCSS, Redux Toolkit, RTK Query.",
+    image: "https://i.ibb.co/zhDDBCTH/palta.png",
+    url: "https://www.app.somospalta.com/auth",
+    video: "https://youtu.be/MI0-mGGaOlM",
+  },
   {
     id: 1,
     title: "Qr Generator",

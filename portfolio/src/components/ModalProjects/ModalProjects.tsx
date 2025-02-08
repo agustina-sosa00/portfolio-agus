@@ -23,7 +23,7 @@ export const ModalProjects: React.FC<Props> = ({
         className="w-full h-full fixed z-30 top-0 left-0 bg-[#ffffff53] flex justify-center items-center "
         onClick={closeModal}
       >
-        <div className="relative flex flex-col items-center justify-start w-full gap-4 px-2 py-4 bg-white rounded-lg md:w-2/3 modal">
+        <div className="relative flex flex-col items-center justify-start w-full gap-4 px-2 py-4 bg-white rounded-lg md:w-2/3 modal lg:h-3/4">
           <button
             onClick={closeModal}
             className="absolute top-0 right-0 text-secundario p-5 text-xl hover:text-[#5a4720]"
