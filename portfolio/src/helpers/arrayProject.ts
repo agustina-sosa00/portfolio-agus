@@ -21,7 +21,7 @@ export const projects = [
     id: 2,
     title: "Qr Generator",
     description:
-      "Con esta herramienta, puedes generar un código QR para cualquier enlace web, como tuportfolio. Simplemente ingresa la URL y obtén un código QR que permite a otros acceder fácilmente a tu contenido. Tecnologias: React, JavaScript, TailwindCSS, qrcode.react, Sonner Alerts, CSS.",
+      "Con esta herramienta, puedes generar un código QR para cualquier enlace web, como tu portfolio. Simplemente ingresa la URL y obtén un código QR que permite a otros acceder fácilmente a tu contenido. Tecnologias: React, JavaScript, TailwindCSS, qrcode.react, Sonner Alerts, CSS.",
     image: "https://i.ibb.co/x18LTYy/qr-generator.png",
     url: "https://generatorcode-qr.vercel.app/",
     video: "https://youtu.be/eEBrsVviFIQ",
