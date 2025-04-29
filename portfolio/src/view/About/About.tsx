@@ -74,7 +74,7 @@ export const About: React.FC = () => {
               enfocada en construir experiencias digitales intuitivas y
               funcionales, utilizando tecnologías como{" "}
               <span className="text-[#77530a] font-bold">
-                React, Next.js, JavaScript, Typescript, TailwindCSS.
+                React, Next.js, JavaScript, Typescript, TailwindCSS y WordPress.
               </span>{" "}
               Me destaco por mi{" "}
               <span className="text-[#77530a] font-bold">
@@ -87,7 +87,10 @@ export const About: React.FC = () => {
               <div className="flex items-center w-full overflow-hidden md:w-3/4 h-250px">
                 <div className="slideTrack">
                   {[...arrayTec, ...arrayTec].map((tec, index) => (
-                    <div key={index} className="mt-6 slide">
+                    <div
+                      key={index}
+                      className="flex justify-center mt-6 w-28 slide"
+                    >
                       <h2 className="text-[#77530a] font-bold">{tec.name}</h2>
                     </div>
                   ))}
