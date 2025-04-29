@@ -5,7 +5,7 @@ export const projects = [
     description:
       "Tienda e-commerce desarrollada en WordPress y WooCommerce, con integración de Mercado Pago y simulador de envíos para una experiencia de compra completa.",
     image: "https://i.imgur.com/a2IkYEc.jpeg",
-    // url: "URL-DE-TU-TIENDA",
+    url: "",
     video: "https://youtu.be/Iw7H4XuNLcc",
   },
   {
