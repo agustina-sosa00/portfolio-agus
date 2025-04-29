@@ -18,7 +18,7 @@ export const arrayTec = [
   },
   {
     id: 4,
-    name: "Next.Js",
+    name: "WordPress",
   },
   {
     id: 5,
@@ -30,6 +30,6 @@ export const arrayTec = [
   },
   {
     id: 7,
-    name: "Shadcn",
+    name: "Material UI",
   },
 ];

@@ -1,6 +1,15 @@
 export const projects = [
   {
-    id: 0,
+    id: 5,
+    title: "Tienda Online WordPress",
+    description:
+      "Tienda e-commerce desarrollada en WordPress y WooCommerce, con integración de Mercado Pago y simulador de envíos para una experiencia de compra completa.",
+    image: "https://i.imgur.com/a2IkYEc.jpeg",
+    // url: "URL-DE-TU-TIENDA",
+    video: "https://youtu.be/Iw7H4XuNLcc",
+  },
+  {
+    id: 1,
     title: "Palta App",
     description:
       "Palta App es una aplicación PWA diseñada para brindar una experiencia digital ágil y cómoda en restaurantes. Permite a los usuarios escanear un QR único de la mesa para crear y gestionar órdenes personalizadas de manera sencilla. Su diseño responsivo garantiza una experiencia óptima en cualquier dispositivo. Tecnologias: React, JavaScript, TailwindCSS, Redux Toolkit, RTK Query.",
@@ -9,7 +18,7 @@ export const projects = [
     video: "https://youtu.be/peF_4pv1Im4",
   },
   {
-    id: 1,
+    id: 2,
     title: "Qr Generator",
     description:
       "Con esta herramienta, puedes generar un código QR para cualquier enlace web, como tuportfolio. Simplemente ingresa la URL y obtén un código QR que permite a otros acceder fácilmente a tu contenido. Tecnologias: React, JavaScript, TailwindCSS, qrcode.react, Sonner Alerts, CSS.",
@@ -18,7 +27,7 @@ export const projects = [
     video: "https://youtu.be/eEBrsVviFIQ",
   },
   {
-    id: 2,
+    id: 3,
     title: "Ice Cream",
     description:
       "Ice Cream permite a los usuarios poder elegir productos, cargarlos a un carrito de compras, y realizar el pedido directamente a whatsapp. Posee un panel de administrador. Frontend: React, TypeScript, TailwindCSS, Axios, Context, Clerk",
@@ -27,7 +36,7 @@ export const projects = [
     video: "https://youtu.be/ZvRGMa6Qyqs",
   },
   {
-    id: 3,
+    id: 4,
     title: "Stetic Glam",
     description:
       "Stetic Glam se dedica a ofrecer tratamientos avanzados de belleza y cuidado personal. Nuestra misión es realzar la belleza y confianza de nuestros clientes mediante servicios de alta calidad, adaptados a sus necesidades individuales. Frontend: React, TypeScript, TailwindCSS",
