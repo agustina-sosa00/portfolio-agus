@@ -1,14 +1,5 @@
 export const projects = [
   {
-    id: 5,
-    title: "Tienda Online WordPress",
-    description:
-      "Tienda e-commerce desarrollada en WordPress y WooCommerce, con integración de Mercado Pago y simulador de envíos para una experiencia de compra completa.",
-    image: "https://i.imgur.com/a2IkYEc.jpeg",
-    url: "",
-    video: "https://youtu.be/Iw7H4XuNLcc",
-  },
-  {
     id: 1,
     title: "Palta App",
     description:
@@ -17,6 +8,16 @@ export const projects = [
     url: "https://www.app.somospalta.com/auth",
     video: "https://youtu.be/peF_4pv1Im4",
   },
+  {
+    id: 5,
+    title: "Tienda Online WordPress",
+    description:
+      "Tienda e-commerce desarrollada en WordPress y WooCommerce, con integración de Mercado Pago y simulador de envíos para una experiencia de compra completa.",
+    image: "https://i.imgur.com/a2IkYEc.jpeg",
+    url: "",
+    video: "https://youtu.be/Iw7H4XuNLcc",
+  },
+
   {
     id: 2,
     title: "Qr Generator",
