@@ -7,16 +7,13 @@ import foto from "../../assets/Frame 7-Photoroom.png";
 import { useInView } from "react-intersection-observer";
 
 export const About: React.FC = () => {
-  // Controlador para la animación
   const controls = useAnimation();
 
-  // Hook para detectar si el elemento está en vista
   const { ref, inView } = useInView({
-    triggerOnce: true, // Solo se activa una vez cuando entra en la vista
-    threshold: 0.5, // 50% del componente visible para activar
+    triggerOnce: true,
+    threshold: 0.5,
   });
 
-  // Efecto para activar la animación cuando está en vista
   useEffect(() => {
     if (inView) {
       controls.start({
@@ -40,7 +37,7 @@ export const About: React.FC = () => {
           >
             <motion.h2
               className="text-[#faa2b2] text-3xl md:text-5xl font-parrafo "
-              initial={{ opacity: 0, y: 50, scale: 0.8 }} // Empieza invisible, abajo y pequeño
+              initial={{ opacity: 0, y: 50, scale: 0.8 }}
               animate={controls}
             >
               Sobre Mi
@@ -59,8 +56,8 @@ export const About: React.FC = () => {
           <div className="w-full md:w-1/2 md:h-[500px]   flex flex-col justify-center items-center p-3">
             <div className="hidden w-full md:block" ref={ref}>
               <motion.h2
-                initial={{ opacity: 0, y: 50, scale: 0.8 }} // Empieza invisible, abajo y pequeño
-                animate={controls} // Animación controlada por el estado
+                initial={{ opacity: 0, y: 50, scale: 0.8 }}
+                animate={controls}
                 className="text-[#faa2b2] text-5xl font-parrafo "
               >
                 Sobre Mi
@@ -74,9 +71,15 @@ export const About: React.FC = () => {
               enfocada en construir experiencias digitales intuitivas y
               funcionales, utilizando tecnologías como{" "}
               <span className="text-[#77530a] font-bold">
-                React, Next.js, JavaScript, Typescript, TailwindCSS y WordPress.
+                React Js, JavaScript, Typescript, TailwindCSS, Tanstack Query y
+                Zustand.
               </span>{" "}
-              Me destaco por mi{" "}
+              <br />
+              Me encuentro estudiando{" "}
+              <span className="text-[#77530a] font-bold">
+                React Native
+              </span>{" "}
+              para ampliar mi stack. Me destaco por mi{" "}
               <span className="text-[#77530a] font-bold">
                 capacidad para entregar tareas en tiempos eficientes, escribir
                 código limpio y bien estructurado.
@@ -85,13 +88,15 @@ export const About: React.FC = () => {
 
             <div className="flex items-center justify-center w-full overflow-hidden h-250px">
               <div className="flex items-center w-full overflow-hidden md:w-3/4 h-250px">
-                <div className="slideTrack">
+                <div className="slideTrack gap-5">
                   {[...arrayTec, ...arrayTec].map((tec, index) => (
                     <div
                       key={index}
                       className="flex justify-center mt-6 w-28 slide"
                     >
-                      <h2 className="text-[#77530a] font-bold">{tec.name}</h2>
+                      <h2 className="text-[#77530a] font-bold text-nowrap">
+                        {tec.name}
+                      </h2>
                     </div>
                   ))}
                 </div>

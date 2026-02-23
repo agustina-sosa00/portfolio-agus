@@ -5,8 +5,8 @@ export const DownoaldCV: React.FC = () => {
   return (
     <motion.div
       className="z-10 flex items-center justify-center w-full h-full "
-      initial={{ opacity: 0, scale: 0 }} // Empieza invisible y pequeño
-      animate={{ opacity: 1, scale: 1 }} // Se vuelve visible y escala a su tamaño normal
+      initial={{ opacity: 0, scale: 0 }}
+      animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 2, delay: 2.5 }}
     >
       <div>

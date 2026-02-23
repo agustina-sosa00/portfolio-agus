@@ -20,7 +20,7 @@ export const Footer: React.FC = () => {
     <>
       <Toaster position="bottom-center" />
       <footer className=" bgAboyProject">
-        <div className="w-full max-w-screen-xl p-4 mx-auto md:py-8">
+        <div className="w-full max-w-screen-xl p-4 mx-auto md:py-8 ">
           <div className="sm:flex sm:items-center sm:justify-between">
             <a
               href="https://wa.me/+5401165149673?text=Hola%20Agustina."

@@ -6,16 +6,13 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 export const Projects: React.FC = () => {
-  // Controlador para la animación
   const controls = useAnimation();
 
-  // Hook para detectar si el elemento está en vista
   const { ref, inView } = useInView({
-    triggerOnce: true, // Solo se activa una vez cuando entra en la vista
-    threshold: 0.5, // 50% del componente visible para activar
+    triggerOnce: true,
+    threshold: 0.5,
   });
 
-  // Efecto para activar la animación cuando está en vista
   useEffect(() => {
     if (inView) {
       controls.start({
@@ -35,7 +32,7 @@ export const Projects: React.FC = () => {
         <div className="flex items-center justify-center w-full" ref={ref}>
           <motion.h2
             className="text-[#faa2b2] text-3xl md:text-6xl font-parrafo "
-            initial={{ opacity: 0, y: 50, scale: 0.8 }} // Empieza invisible, abajo y pequeño
+            initial={{ opacity: 0, y: 50, scale: 0.8 }}
             animate={controls}
           >
             Proyectos
