@@ -1,5 +1,4 @@
 import React from "react";
-// import './Home.css'
 import { CardHome } from "./CardHome";
 import { Element } from "react-scroll";
 

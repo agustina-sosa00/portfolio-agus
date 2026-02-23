@@ -1,5 +1,4 @@
 import React from "react";
-// import "./Home.css";
 import "../../App.css";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
@@ -12,8 +11,8 @@ export const ButtonHome: React.FC<IProps> = ({ labelText, url }) => {
   return (
     <motion.div
       className="z-10 flex items-center justify-center w-full h-full "
-      initial={{ opacity: 0, scale: 0 }} // Empieza invisible y pequeño
-      animate={{ opacity: 1, scale: 1 }} // Se vuelve visible y escala a su tamaño normal
+      initial={{ opacity: 0, scale: 0 }}
+      animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 2, delay: 2.5 }}
     >
       <Link to={url} smooth={true} duration={500}>
