@@ -5,7 +5,7 @@ export const arrayTec = [
   },
   {
     id: 12,
-    name: "Redux",
+    name: "Tanstack Query",
   },
 
   {
@@ -18,7 +18,7 @@ export const arrayTec = [
   },
   {
     id: 4,
-    name: "WordPress",
+    name: "Zustand",
   },
   {
     id: 5,
@@ -30,6 +30,6 @@ export const arrayTec = [
   },
   {
     id: 7,
-    name: "Material UI",
+    name: "React Native",
   },
 ];

@@ -9,12 +9,10 @@
 .slide {
   width: auto; /* Ajuste del ancho para que se adapte al contenido */
   padding: 0 10px; /* Añadir padding para espacio adicional */
-  height: 50px;
-  margin: 0 10px; /* Espacio entre los slides */
+  height: 50px; /* Espacio entre los slides */
 }
 
 .slide .text {
-  margin-left: 5px;
   font-size: 20px;
   white-space: nowrap; /* Prevenir salto de línea */
   /* overflow: hidden; Ocultar el desbordamiento del texto */

@@ -22,6 +22,11 @@ export const Navbar: React.FC = () => {
             Sobre mi
           </button>
         </Link>
+        <Link to="experience" smooth={true} duration={500}>
+          <button className="font-parrafo text-2xl text-[#77530a] hover:border-b-2 hover:border-[#77530a]">
+            Experiencia
+          </button>
+        </Link>
         <Link to="projects" smooth={true} duration={500}>
           <button className="font-parrafo text-2xl text-[#77530a] hover:border-b-2 hover:border-[#77530a]">
             Proyectos
